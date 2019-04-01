@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find rplidar_ros)/launch/rplidar_a3.launch" />
+
+	<node pkg="forward_detector" name="forward_detector" type="forward_detector" output="screen">
+	</node>
+
+</launch>
